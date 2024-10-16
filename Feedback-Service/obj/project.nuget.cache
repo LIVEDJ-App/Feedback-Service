@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LU2eRuyClTtWVPYOwgo3uc+RbjY4XjID7SxrgwSFn+GKIeQtAGOd4qoeYza2f60BEWPJNbzeFnTPrQXo10g38g==",
+  "dgSpecHash": "kT7vtcJGJqsRuGXDvt05b7XuNuDxx7UUKBLbv9JZcfvW58tdZCz/si5/AiYX10GxWg0Mb/DdM3MzBhKIBnTa5A==",
   "success": true,
-  "projectFilePath": "C:\\Apps\\.NET Projects\\LIVEDJ Project\\Feedback-Service\\Feedback-Service\\Feedback-Service.csproj",
+  "projectFilePath": "C:\\Apps\\.NET Projects\\LIVEDJ Project\\Feedback-Service\\Feedback-Service\\Feedback-Service.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Steijn\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Steijn\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

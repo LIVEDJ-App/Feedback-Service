@@ -434,9 +434,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Apps\\.NET Projects\\LIVEDJ Project\\Feedback-Service\\Feedback-Service\\Feedback-Service.csproj",
-      "projectName": "Feedback-Service",
-      "projectPath": "C:\\Apps\\.NET Projects\\LIVEDJ Project\\Feedback-Service\\Feedback-Service\\Feedback-Service.csproj",
+      "projectUniqueName": "C:\\Apps\\.NET Projects\\LIVEDJ Project\\Feedback-Service\\Feedback-Service\\Feedback-Service.Api.csproj",
+      "projectName": "Feedback-Service.Api",
+      "projectPath": "C:\\Apps\\.NET Projects\\LIVEDJ Project\\Feedback-Service\\Feedback-Service\\Feedback-Service.Api.csproj",
       "packagesPath": "C:\\Users\\Steijn\\.nuget\\packages\\",
       "outputPath": "C:\\Apps\\.NET Projects\\LIVEDJ Project\\Feedback-Service\\Feedback-Service\\obj\\",
       "projectStyle": "PackageReference",
