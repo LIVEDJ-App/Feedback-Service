@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Feedback.Application.Events;
 using Feedback.Application.Logic.Commands;
 using Feedback.Domain.Entities;
