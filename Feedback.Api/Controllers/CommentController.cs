@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Feedback.Api.Controllers
 {
     [ApiController]
-    [Route("feedback/v1/comment")]
+    [Route("feedback-service/v1/comment")]
     public class CommentController : ControllerBase
     {
         [HttpPost]
