@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feedback.Api", "Feedback.Api\Feedback.Api.csproj", "{A43BEE6F-3441-46ED-90DB-BA48FDFCAB86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feedback.Api", "Feedback.Api\Feedback.Api.csproj", "{A43BEE6F-3441-46ED-90DB-BA48FDFCAB86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feedback.Application", "Feedback.Application\Feedback.Application.csproj", "{B68195E3-CAA8-4BC7-A632-2A7E54E82892}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feedback.Application", "Feedback.Application\Feedback.Application.csproj", "{B68195E3-CAA8-4BC7-A632-2A7E54E82892}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feedback.Domain", "Feedback.Domain\Feedback.Domain.csproj", "{EDE88D60-90A9-456C-A7B2-A367E88A4392}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feedback.Domain", "Feedback.Domain\Feedback.Domain.csproj", "{EDE88D60-90A9-456C-A7B2-A367E88A4392}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feedback.Persistence", "Feedback.Persistence\Feedback.Persistence.csproj", "{12919E4D-20FE-4D62-8B56-096490BBC4B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feedback.Persistence", "Feedback.Persistence\Feedback.Persistence.csproj", "{12919E4D-20FE-4D62-8B56-096490BBC4B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feedback.Infrastructure", "Feedback.Infrastructure\Feedback.Infrastructure.csproj", "{1B222816-5838-477F-A9ED-4DB798F3405A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feedback.Application.Test", "Feedback.Application.Test\Feedback.Application.Test.csproj", "{88719A15-D31E-4E23-8F29-408751AC74D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feedback.Api.Test", "Feedback.Api.Test\Feedback.Api.Test.csproj", "{5C894BBD-1FAF-496D-9B45-683DAD49C501}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{12919E4D-20FE-4D62-8B56-096490BBC4B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12919E4D-20FE-4D62-8B56-096490BBC4B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12919E4D-20FE-4D62-8B56-096490BBC4B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B222816-5838-477F-A9ED-4DB798F3405A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B222816-5838-477F-A9ED-4DB798F3405A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B222816-5838-477F-A9ED-4DB798F3405A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B222816-5838-477F-A9ED-4DB798F3405A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88719A15-D31E-4E23-8F29-408751AC74D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88719A15-D31E-4E23-8F29-408751AC74D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88719A15-D31E-4E23-8F29-408751AC74D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88719A15-D31E-4E23-8F29-408751AC74D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C894BBD-1FAF-496D-9B45-683DAD49C501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C894BBD-1FAF-496D-9B45-683DAD49C501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C894BBD-1FAF-496D-9B45-683DAD49C501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C894BBD-1FAF-496D-9B45-683DAD49C501}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

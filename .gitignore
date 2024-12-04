@@ -22,6 +22,7 @@ nupkg/
 
 #AppSettings
 Feedback.Api/appsettings.Development.json
+Feedback.Api/appsettings.json
 
 # User-specific files
 *.suo

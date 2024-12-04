@@ -6,4 +6,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Logic\Queries\" />
+  </ItemGroup>
+
+    <ItemGroup>
+    <ProjectReference Include="..\Feedback.Domain\Feedback.Domain.csproj" />
+    <ProjectReference Include="..\Feedback.Infrastructure\Feedback.Infrastructure.csproj" />
+    <ProjectReference Include="..\Feedback.Persistence\Feedback.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
