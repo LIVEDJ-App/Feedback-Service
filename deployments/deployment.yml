@@ -14,6 +14,7 @@ spec:
       labels:
         app: feedback-service
     spec:
+      automountServiceAccountToken: false
       containers:
       - name: feedback-service
         image: us-central1-docker.pkg.dev/livedj-project/livedj-repo/feedback-service:main
