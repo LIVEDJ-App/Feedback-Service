@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           format: openapi
-          target: 'http://35.202.177.253:8080/swagger/v1/swagger.json'
+          target: 'http://34.27.47.102:8080/swagger/v1/swagger.json'
           
   sonar-scan:
     name: Sonarcloud Scan
