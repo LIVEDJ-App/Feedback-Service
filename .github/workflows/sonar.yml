@@ -8,7 +8,21 @@ on:
       - '**'
 jobs:
   build:
-    name: Build and analyze
+    name: ZAP Scan
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    steps:
+      - name: ZAP Scan
+        uses: zaproxy/action-api-scan@v0.9.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          format: openapi
+          target: 'http://35.202.177.253:8080/swagger/v1/swagger.json'
+          
+  sonar-scan:
+    name: Sonarcloud Scan
     runs-on: windows-latest
     
     steps:
